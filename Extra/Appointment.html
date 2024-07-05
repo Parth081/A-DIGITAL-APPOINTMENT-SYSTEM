@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Junagadh Municipal Corporation</title>
+    <link rel="stylesheet" href="appoint.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <div id="left">
+            <ul class="list1">
+                <li>
+                    <img src="D:\SSIP\image\main_logo.png" alt="main_logo"
+                        id="main_logo" height="100px" width="100px">
+                </li>
+                <li>
+                    <h1 id="head-text">Junagadh Municipal Corporation</h1>
+                </li>
+            </ul>
+        </div>
+        <div id="right">
+            <ul class="list2">
+                <li>
+                    <form action="">
+                        <input type="search" name="search" id="search">
+                    </form>
+                </li>
+                <li>
+                    <button class="button1">Login</button>
+                </li>
+                <li>
+                    <button class="button2">Register</button>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <header>
+        <h1>Junagadh Municipal Corporation</h1>
+    </header>
+    <main>
+        <section id="commissioner-details">
+            <h2>Commissioner Details</h2>
+            <p>Name: Rajesh M. Tanna (IAS)</p>
+            <p>Address: Commissioner Bunglow, Bilkha Road, Junagadh</p>
+            <p>Contact Details:</p>
+            <ul>
+                <li>Phone: (0285) 2654730</li>
+                <li>Fax: (0285) 2651510</li>
+                <li>Email: municipalcorporationju nd@yahoo.co.in</li>
+            </ul>
+        </section>
+        <section id="appointments">
+            <h2>Appointments</h2>
+            <div id="appointment-search">
+                <label for="search">Search Appointments:</label>
+                <input type="text" id="search" name="search">
+            </div>
+            <table id="appointment-table">
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Time</th>
+                        <th>Subject</th>
+                    </tr>
+                </thead>
+                <tbody id="appointment-list">
+                    <!-- Appointments will be loaded here -->
+                </tbody>
+            </table>
+            <button id="add-appointment">+ Add Appointment</button>
+        </section>
+    </main>
+    <script src="appoint.js"></script>
+</body>
+</html>

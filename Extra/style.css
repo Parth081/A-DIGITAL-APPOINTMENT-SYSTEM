@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    width: auto;
+    height: 96px;
+    background-color: #DC3545;
+    justify-content: center;
+    align-items: center;
+}
+
+#left {
+    padding: 12px 0 12px 12px;
+    position: fixed;
+    left: 0;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+#head-text {
+    color: aliceblue;
+    font-size: 25px;
+    margin-left: 14px;
+}
+
+#right {
+    padding: 12px 0 12px 825px;
+}
+
+#search {
+    height: 35px;
+    width: 210px;
+    border-radius: 60px;
+    border: none;
+}
+
+.button1 {
+    height: 81px;
+    width: 100%;
+    background-color: #DC3545;
+    border: none;
+    color: aliceblue;
+    font-size: 25px;
+    font-weight: 500;
+    text-shadow: black 3px 3px 10px;
+    margin-left: 10px;
+}
+.button2 {
+    height: 81px;
+    width: 100%;
+    background-color: #DC3545;
+    border: none;
+    color: aliceblue;
+    font-size: 25px;
+    font-weight: 500;
+    text-shadow: black 3px 3px 10px;
+    margin-left: 10px;
+    
+}
+.list1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+    /* padding: 0 12px; */
+}
+
+.Nav2 {
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: #9C9C9C;
+    height: 40px;
+    /* border: 2px solid black; */
+}
+
+.Nav2 a {
+    text-decoration: none;
+    padding: 0 50px;
+    margin: 0 57px;
+    height: 40px;
+    color: aliceblue;
+    text-shadow: black 2px 2px 5px;
+    /* border: 2px solid black; */
+}
+
+
+/* ___________________________________________ */
+.middle-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    width: 100%;
+    border: 2px solid black;
+    background-attachment: fixed;
+    background-image: url('C:\Users\yagna\OneDrive\Desktop\ssip_website\Frontend\image\wave-1@2x.pngc');
+    border-radius: 10px;
+}
+
+
+.middle-content .container {
+    height: 80%;
+    width: 70%;
+    border: 2px solid black;
+    border-radius: 10px;    
+}
+
+.middle-content .container .left{
+    height: 70%;
+    width: 40%;
+    border: 2px solid black;
+    float: left;
+    margin: 48px 0 0 52px;
+}
+
+.middle-content .container .right{
+    height: 70%;
+    width: 40%;
+    border: 2px solid black;
+    float: right;
+    margin: 48px 52px 0 0;
+}
+.middle-content .container .left .ben{
+    height: 100%;
+    width: 100%;
+}
+.middle-content .container .left .ben img,h3{
+    margin-left: 100px;
+}
+.middle-content .container .right .bhai{
+    height: 100%;
+    width: 100%;
+}
+.middle-content .container .right .bhai img,h3{
+    margin-left: 100px;
+}
